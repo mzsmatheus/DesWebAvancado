@@ -1,0 +1,42 @@
+
+table {
+  table-layout: fixed;
+  margin: auto;
+  width: 80%;
+}
+
+.mat-column-id{
+  text-align: center;
+  width: 10%;
+}
+
+.mat-column-nome{
+  width: 20%;
+  padding: 10px;
+}
+
+.mat-column-valor{
+  width: 10%;
+}
+.mat-column-desc{
+  width: 40%;
+  font-style: italic;
+
+}
+
+.mat-column-funcoes{
+  width: 15%;
+  text-align: center;
+}
+
+section{
+  margin: 50px 10px 30px 200px;
+}
+
+.add{
+  margin-left: 30px;
+}
+
+mat-icon{
+  padding: 0px 10px 0px 10px;
+}

@@ -1,0 +1,33 @@
+import { ControleService } from 'src/services/controle.service';
+import { Router, ActivatedRoute } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+import { Pessoa } from 'src/models/pessoa';
+
+@Component({
+  selector: 'app-update-pessoa',
+  templateUrl: './update-pessoa.component.html',
+  styleUrls: ['./update-pessoa.component.css']
+})
+export class UpdatePessoaComponent implements OnInit {
+
+  pessoa : Pessoa = new Pessoa();
+
+  constructor(
+    private router: Router,
+    private route: ActivatedRoute,
+    private controle: ControleService
+  ) { }
+
+  ngOnInit(): void {
+    const str = this.route.snapshot.paramMap.get("id");
+    this.controle.buscarPessoas(Number(str)).subscribe((pessoa) => {
+      this.pessoa = pessoa;
+    });
+  }
+
+  novaPessoa(){
+    this.controle.atualizarPessoas(this.pessoa, this.pessoa.id).subscribe(() => {
+      this.router.navigate(['/cadastro/pessoas']);
+    });
+  }
+}

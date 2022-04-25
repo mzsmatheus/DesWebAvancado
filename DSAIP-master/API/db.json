@@ -1,0 +1,65 @@
+{
+  "produtos": [
+    {
+      "id": 2,
+      "nome": "Quiche",
+      "valor": "7.90",
+      "desc": "queijo com palmito",
+      "foto": "/assets/img/quiches.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Pastel Assado",
+      "valor": "5.50",
+      "desc": "carne, ricota com palmito",
+      "foto": "/assets/img/pastelassado.jpg"
+    },
+    {
+      "id": 4,
+      "nome": "Sanduiche Natural",
+      "valor": "7.90",
+      "desc": "frango, atum, ricota",
+      "foto": "/assets/img/sanduichenatural.jpeg"
+    },
+    {
+      "id": 5,
+      "nome": "Mini Pizza",
+      "valor": "8.90",
+      "desc": "queijo, tomate, azeitona",
+      "foto": "/assets/img/minipizza.jpg"
+    },
+    {
+      "id": 6,
+      "nome": "Hamburguer",
+      "valor": "10.90",
+      "desc": "hamburguer, alface, tomate, queijo, presunto, maionese",
+      "foto": "/assets/img/hamburguer.jpg"
+    },
+    {
+      "id": 8,
+      "nome": "pastel de Belem",
+      "valor": "8.90",
+      "desc": "creme de confeiteiro",
+      "foto": "/assets/img/pastelbelem.jpg"
+    }
+  ],
+  "pessoas": [
+    {
+      "id": 1,
+      "nome": "Aline Ferreira",
+      "sobre": "dos Anjos",
+      "foto": "foto 1",
+      "email": "testeemail.com"
+    },
+    {
+      "id": 2,
+      "nome": "Ana Claudio Santos",
+      "sobre": ""
+    },
+    {
+      "id": 3,
+      "nome": "Adriano Ferreira Dos Anjos Neto",
+      "email": "adferreiraneto@gmail.com"
+    }
+  ]
+}

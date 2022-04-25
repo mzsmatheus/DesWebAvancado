@@ -1,0 +1,31 @@
+mat-grid-list{
+  display: block;
+  margin: auto;
+  width: 90%;
+  height: 10%;
+}
+
+mat-card{
+  overflow: hidden;
+  width: 350px;
+  height: 450px;
+}
+
+.cardprodutos{
+  margin-left: 30%;
+}
+
+.cardpessoas{
+  margin-right: 30%;
+}
+
+img{
+  background-size: cover;
+  /*object-fit: cover;*/
+
+}
+
+button{
+  margin-top: 5px;
+  margin-left: 50%;
+}

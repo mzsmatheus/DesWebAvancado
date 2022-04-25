@@ -1,0 +1,28 @@
+<app-nav></app-nav>
+
+<mat-card>
+  <form>
+    <img src="/assets/img/iconeCircle.png">
+
+    <mat-form-field class="campo" appearance="outline">
+      <mat-label>Email</mat-label>
+      <input type="email" matInput>
+      <mat-icon matSuffix>alternate_email</mat-icon>
+    </mat-form-field>
+
+    <mat-form-field class="campo" appearance="outline">
+      <mat-label>Senha</mat-label>
+      <input type="text" matInput>
+      <mat-icon matSuffix> vpn_key</mat-icon>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" routerLink="/adm/cadastro"> Entrar </button>
+    <button mat-raised-button color="primary" routerLink=""> Cadastro </button>
+    <a routerLink="">Recuperar senha</a>
+
+  </form>
+
+</mat-card>
+
+<app-footer></app-footer>
+

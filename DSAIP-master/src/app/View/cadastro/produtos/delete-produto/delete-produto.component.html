@@ -1,0 +1,39 @@
+<app-nav></app-nav>
+
+<mat-card>
+  <h1> Excluir Produtos </h1>
+  <form>
+    <table>
+      <tr>
+        <td>
+          <mat-form-field class="campoid" appearance="outline">
+          <mat-label>Id</mat-label>
+          <input type="number" matInput [disabled]="true" name="id" [(ngModel)]="produto.id">
+          </mat-form-field>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <mat-form-field class="campoNome" appearance="outline">
+          <mat-label>Nome</mat-label>
+          <input type="text" matInput [disabled]="true" name="nome" [(ngModel)]="produto.nome">
+          </mat-form-field>
+        </td>
+        <td>
+          <mat-form-field class="campoDesc" appearance="outline">
+          <mat-label>Descrição:</mat-label>
+          <input type="text" matInput [disabled]="true" name="desc" [(ngModel)]="produto.desc">
+          </mat-form-field>
+        </td>
+      </tr>
+    </table>
+  </form>
+  <button mat-flat-button color="warn" routerLink="/cadastro/produtos">
+    <mat-icon>arrow_back</mat-icon>
+    <span> Voltar </span>
+  </button>
+  <button mat-flat-button color="primary" (click)="excluirProduto()">
+    <mat-icon>delete_outline</mat-icon>
+    <span> Deletar </span>
+  </button>
+</mat-card>

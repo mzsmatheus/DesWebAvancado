@@ -1,0 +1,42 @@
+
+mat-card{
+  display: block;
+  margin: auto;
+  width: 80%;
+  height: 85%;
+}
+
+img{
+  object-fit: cover;
+  display: block;
+  margin: auto;
+  width: 10%;
+  height: 10%;
+  padding: 50px;
+}
+
+
+form{
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.campo{
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+
+button{
+  display: inline;
+  width: 10%;
+  margin: 0px 20px 0px 20px;
+}
+
+a {
+  display: block;
+  margin-top: 20px;
+}
+
+

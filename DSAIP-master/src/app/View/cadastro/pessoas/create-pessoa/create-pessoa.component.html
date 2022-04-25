@@ -1,0 +1,31 @@
+<app-nav></app-nav>
+
+<mat-card>
+  <h1> Cadastrar Novas Pessoas </h1>
+  <form>
+    <table>
+      <tr>
+        <td>
+          <mat-form-field class="campoNome" appearance="outline">
+          <mat-label>nome</mat-label>
+          <input type="text" matInput name="nome" [(ngModel)]="pessoa.nome">
+          </mat-form-field>
+        </td>
+        <td>
+          <mat-form-field class="campoNome" appearance="outline">
+          <mat-label>email</mat-label>
+          <input type="text" matInput name="email" [(ngModel)]="pessoa.email">
+          </mat-form-field>
+        </td>
+      </tr>
+    </table>
+  </form>
+  <button mat-flat-button color="warn" routerLink="/cadastro/pessoas">
+    <mat-icon>arrow_back</mat-icon>
+    <span> Voltar </span>
+  </button>
+  <button mat-flat-button color="primary" (click)="novaPessoa()">
+    <mat-icon>add</mat-icon>
+    <span> Cadastrar </span>
+  </button>
+</mat-card>

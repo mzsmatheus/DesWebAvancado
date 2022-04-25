@@ -1,0 +1,23 @@
+mat-card{
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+table{
+  display: block;
+}
+
+.campoNome{
+  width: 300px;
+}
+
+.campoDesc{
+  width: 500px;
+}
+
+button{
+  display: inline-block;
+  width: 15%;
+  margin: 0px 10px 30px 10px;
+}
